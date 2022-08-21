@@ -15,18 +15,18 @@
 
 <body>
 
-   <header class="container">
+   <header id="up" class="container">
 
-      <div class="main-header">
+      <div  class="main-header">
          <img src="icon/Logo.svg" alt="">
 
          <ul class="nav-menu">
             <li class="menu-link"><a href="#">Home</a></li>
-            <li class="menu-link"><a href="#">Projects</a></li>
-            <li class="menu-link"><a href="#">Blog</a></li>
-            <li class="menu-link"><a href="#">Shop</a></li>
-            <li class="menu-link"><a href="#">About</a>
-            <li class="menu-link"><a href="#">Contact</a>
+            <li class="menu-link"><a href="#projects">Projects</a></li>
+            <li class="menu-link"><a href="#blog">Blog</a></li>
+            <li class="menu-link"><a href="#shop">Shop</a></li>
+            <li class="menu-link"><a href="#about">About</a>
+            <li class="menu-link"><a href="#contact">Contact</a>
             </li>
          </ul>
          <button class="header-btn">Card</button>
@@ -51,7 +51,7 @@
       </div>
    </header>
 
-   <section>
+   <section >
       <div class="container">
 
          <h1 class="title-text">make your no-code website. You have a vision. We have a way to get you there.</h1>
@@ -69,7 +69,7 @@
    </section>
 
    <section class="container">
-      <p class="pro-title">Selected projects</p>
+      <p id="projects" class="pro-title">Selected projects</p>
       <div class="pro-text">
          <p>Sed ut dolor sit amet, consectetur adipiscing elit. Phasellus ac ipsum a lectus vulputate
             porta vitae non enim. Donec et ante leo.</p>
@@ -100,7 +100,7 @@
    </section>
 
    <section class="container">
-      <div class="reviews">
+      <div id="about" class="reviews">
          <img src="img/rev-1.jpg" alt="rev-1">
          <img src="img/rev-2.jpg" alt="rev-2">
          <img src="img/rev-3.jpg" alt="rev-3">
@@ -110,7 +110,7 @@
 
    <section class="container">
       <div class="blog">
-         <p class="blog-title">Latest blogs</p>
+         <p id="blog" class="blog-title">Latest blogs</p>
          <div class="blog-text">
             <p>Dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas
                molestias.</p>
@@ -146,7 +146,7 @@
 
    <section class="container">
       <div class="question-container">
-         <div class="question">
+         <div id="shop" class="question">
             <a href="#">Need a no-code Website?</a>
          </div>
          <div class="question">
@@ -155,9 +155,9 @@
       </div>
    </section>
 
-   <footer class="footer">
+   <footer id="contact" class="footer">
       <div class="container">
-         <img class="foot-svg" src="icon/Logo.svg" alt="">
+         <a href="#up"><img class="foot-svg" src="icon/Logo.svg" alt=""></a>
          <ul class="foot-ul">
             <a class="foot-li" href="">
                <li>Home</li>
